@@ -6,3 +6,6 @@ Input embeddings are used to convert tokens into dense vector representations. E
 
 # 3. Positional Encoding
 Positional encoding is added to the input embeddings to provide the model with information about the position of each token in the sequence. This is crucial for models that do not inherently understand the order of tokens, such as the Transformer architecture.
+
+# 4. Layer Normalization
+Layer normalization is a technique used to stabilize and accelerate the training of deep neural networks. It normalizes the inputs across the features for each training example, helping to reduce internal covariate shift and improve convergence.
