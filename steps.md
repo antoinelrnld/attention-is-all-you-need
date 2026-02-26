@@ -9,3 +9,8 @@ Positional encoding is added to the input embeddings to provide the model with i
 
 # 4. Layer Normalization
 Layer normalization is a technique used to stabilize and accelerate the training of deep neural networks. It normalizes the inputs across the features for each training example, helping to reduce internal covariate shift and improve convergence.
+
+# 5. Feed-Forward
+
+Feed-forward neural networks are used in each layer of the model to process the output from the attention mechanisms. They consist of fully connected layers that apply non-linear transformations to the data, allowing the model to learn complex patterns and relationships.
+
